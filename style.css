@@ -1,0 +1,24 @@
+#changer {
+    background-color: aqua;
+}html, body {
+    background: #2980B9;
+    min-width: 400px;
+  }
+  
+  #ville {
+    text-transform: capitalize;
+  }
+  
+  #temperature {
+    font-size: 4em;
+  }
+  
+  #changer {
+    background: rgba(178, 223, 251, .3);
+    cursor: pointer;
+
+  }
+  :hover#changer {
+    background-color: aliceblue;
+    transition: 999ms;
+  }
